@@ -20,6 +20,8 @@ import TextFile from './textbar';
 
 
 
+
+
 const theme = createTheme(
     {
        status: {
@@ -129,12 +131,13 @@ export default function SignIn() {
         
         </Grid>
         <Grid
+        // style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}
           item
           xs={false}
           sm={4}
           md={7}
           sx={{
-            backgroundImage: 'url(  )' ,
+            backgroundImage: `url()`,
             backgroundRepeat: 'no-repeat',
             backgroundSize : 'cover',
             backgroundPosition:'center',
